@@ -16,18 +16,18 @@
 body{
   background-color: white;
   color: var(--charcoal);
-    /*overflow: hidden;*/
+  overflow: hidden;
 }
 /* modern header */
 header{
     position:fixed;
     top:0;
     width: 100%;
-    padding: 1rem 5%;
+    padding: 1.5rem 5%;
     /*background-color: #ddd;*/
     backdrop-filter: blur(40px);
     z-index: 1000;
-    display: grid;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: gray;
