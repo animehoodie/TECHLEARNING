@@ -249,12 +249,12 @@ color: rgba(70, 186, 244);;
 }
 
 .box-right{
-  margin: 40px;
+  
   text-align: center;
   padding: 5px;
   box-shadow: 2px 1.5px 10px 2px gray;
   border-radius: 15px;
   background-color: #fff;
-  width: 80% ;
+  width: 100% ;
  
 }
