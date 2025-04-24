@@ -83,7 +83,7 @@ color: white;
   grid-template-columns: 1fr 2.9fr;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 0.9rem;
   
 }
 
@@ -91,7 +91,7 @@ color: white;
   max-width: 1000%;
   box-shadow: 2px 1.5px 10px 2px gray;
   border-radius: 12px;
-  padding: 10px;
+  padding: 23px;
 }
 
 
@@ -126,10 +126,12 @@ transform: scale(1.05);
 /*features degins*/
 .features{
 padding: 4rem 5%;
-background-color:#073a52;
+backdrop-filter: blur(40px);
 color: white;
 border-radius: 20px;
 margin: 25px;
+text-align: center;
+box-shadow: 2px 1.5px 10px 2px gray;
 }
 
 .features-grid {
@@ -247,11 +249,10 @@ color: rgba(70, 186, 244);;
 
 .box-right{
   align-items: center;
-  padding: 10px;
+  padding: 5px;
   box-shadow: 2px 1.5px 10px 2px gray;
   border-radius: 15px;
   background-color: #fff;
   width: 80% ;
-  
- 
+  margin-left: 20px;
 }
