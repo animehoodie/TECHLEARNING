@@ -159,8 +159,7 @@ header{
     background-color: rgb(56, 56, 77);
     color:white;
     padding: 0.5rem 5%;
-    text-align: center;
-    position: absolute; 
+    text-align: center; 
   }
   
   .footer-content{
