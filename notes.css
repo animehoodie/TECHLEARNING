@@ -34,14 +34,14 @@
 }
 
 .wrapper{
-    perspective: 3000px;
-    margin-left: 10px;
+    perspective: 1500px;
+    margin-left: 5px;
     display: inline-table ;
-    border-spacing: 35px;
+    border-spacing: 17.5px;
 }
 .card{
-    width: 250px;
-    height: 397.5px;
+    width: 125px;
+    height: 194px;
     transform-style: preserve-3d;
     transition: transform .8s ease-in-out;
     cursor: pointer;
@@ -74,35 +74,35 @@
 .card-info{
     position: relative;
     bottom: 10%;
-    left: 25px;
+    left: 12.5px;
     /*text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);*/
     text-align: center;
 }
 
 .card-info img{
-    width: 240px;
-    margin-top: 35px;
-    margin-left: -40px;
+    width: 120px;
+    margin-top: 17.5px;
+    margin-left: -20px;
     /*filter: drop-shadow(4px 4px 4px rgb(154, 210, 219));*/
 }
 
 .card-info h6{
     color: black;
-    font-size: 40px;
-    margin-left: -40px;
-    margin-top: 25px;
+    font-size: 20px;
+    margin-left: -20px;
+    margin-top: 12.5px;
 }
 
 .card-info p{
-    margin-left: -40px;
-    margin-top: 25px;
-    font-size: 25px;
+    margin-left: -20px;
+    margin-top: 12.5px;
+    font-size: 12.5px;
 }
 
 .card-info h3{
-   font-size: 20px;
-   margin-left: -45px;
-   margin-top: 70px;
+   font-size: 10px;
+   margin-left: -22.5px;
+   margin-top: 35px;
 }
 
 .card-title{
@@ -126,19 +126,22 @@
 }
 .card-content{
     text-align: center;
-    padding: 20px;
-    max-width: 300px;
+    padding: 10px;
+    max-width: 150px;
 }
 .card-content h3{
-    font-size: 1.8rem;
+    font-size: 0.9rem;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 7.5px;
+}
+.card-content br {
+    margin: 50px;
 }
 .card-description{
-    font-size: 0.9rem;
+    font-size: 0.45rem;
     color: #ccc;
-    margin-bottom: 20px;
-    line-height: 1.6;
+    margin-bottom: 10px;
+    line-height: 0.8;
 }
 .card-description:hover{
     color:#0fbcf9;
@@ -146,10 +149,10 @@
 .card-button{
     background-color: #0fbcf9;
     color: #fff;
-    padding: 12px 24px;
-    font-size: 1rem;
+    padding: 6px 12px;
+    font-size: 0.5rem;
     border: none;
-    border-radius: 25px;
+    border-radius: 12.5px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -162,9 +165,11 @@
     background-color: #333;
     overflow: auto;
     white-space: nowrap;
-    padding: 10px;
+    padding: 5px;
     border-radius: 15px;
     animation: animation 12s linear infinite ;
+    width: fit-content;
+    text-align: center;
   }
 
   .scroll-container.hidden {

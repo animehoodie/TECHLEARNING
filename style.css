@@ -160,6 +160,7 @@ header{
     color:white;
     padding: 0.5rem 5%;
     text-align: center;
+    position: relative;
   }
   
   .footer-content{
@@ -238,9 +239,6 @@ header{
   
     .menu-filters{
       flex-wrap: wrap;
-    }
-    .footer{
-      position:absolute;
     }
   }
   .co{
