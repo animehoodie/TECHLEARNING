@@ -80,7 +80,7 @@ color: white;
   min-height: 50vh;
   padding: 12rem 5% 4rem;
   display: grid;
-  grid-template-columns: 1fr 2.9fr;
+  grid-template-columns: 1.5fr 2.9fr;
   align-items: center;
   justify-content: center;
   gap: 0.9rem;
@@ -91,7 +91,7 @@ color: white;
   max-width: 1000%;
   box-shadow: 2px 1.5px 10px 2px gray;
   border-radius: 12px;
-  padding: 23px;
+  padding: 20px;
 }
 
 
@@ -248,11 +248,12 @@ color: rgba(70, 186, 244);;
 }
 
 .box-right{
-  align-items: center;
+  margin: 40px;
+  text-align: center;
   padding: 5px;
   box-shadow: 2px 1.5px 10px 2px gray;
   border-radius: 15px;
   background-color: #fff;
   width: 80% ;
-  margin-left: 20px;
+ 
 }
