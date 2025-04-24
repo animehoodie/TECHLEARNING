@@ -227,6 +227,14 @@ header{
     .hero-image {
       order: -1;
     }
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-col {
+      text-align: center;
+    }
   
     .about {
       grid-template-columns: 1fr;
