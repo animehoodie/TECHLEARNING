@@ -137,6 +137,12 @@ header {
   color: white;
   font-size: 20px;
 }
+ .co{
+    height: 75%;
+    width: 9%;
+    margin: 30px ;
+    float: left;
+  }
 
 @media (max-width: 768px) {
   .nav-links {
