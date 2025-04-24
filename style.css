@@ -16,23 +16,33 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 5%;
-  background-color: #0077b6;
+  background-filter: blur(40px);
   color: white;
   flex-wrap: wrap;
 }
 
 .logo {
-  width: 60px;
+  width: 20%;
 }
 
 .nav-links {
   display: flex;
-  gap: 20px;
+  gap: 1rem;
 }
 
 .nav-links a {
   color: white;
   text-decoration: none;
+  font-weight: 500;
+  transition: color;
+  padding: 5px
+
+}
+
+.nav-link a:hover{
+  background-color: rgba(70, 186, 244);
+  border-radius: 10px;
+  color:white;
 }
 
 .cta-btn {
